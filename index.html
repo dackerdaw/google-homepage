@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/157px-Google_%22G%22_Logo.svg.png" itemprop="image">
     <link rel="stylesheet" href="style.css">
     <title>Google</title>
 </head>
@@ -19,11 +20,18 @@
     <div class="center">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" class="mid">
         <form action="" method="post">
-            <input type="text" name="search" class="mid" id="search-box" placeholder="What do you want to know?"><br>
+
+            
+            <div id="search-container">
+                <svg class="lupa" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 27px; position: absolute; top: 9px; left: 3%;"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                <input type="text" name="search" class="search" placeholder="What do you want to know?">
+                <img class="microphone" src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" style="width: 27px; position: absolute; top: -127px; left: 93%;">
+            </div>
             <input type="submit" class="button" value="Google Search">
             <input type="button" class="button" value="I'm Feeling Lucky">
         </form>
-        <p class="">Google offered in: <a href="#">Indonesia</a>   <a href="#">Basa Bali</a></p>
+        <p class="" style="margin-top: 12px;">Google offered in: <a href="#">Indonesia</a>   <a href="#">Basa Bali</a></p>
     </div>
     <div class="fbar" id="country">
         <a href="#">Indonesia</a> 
